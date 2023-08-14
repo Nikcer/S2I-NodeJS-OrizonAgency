@@ -69,9 +69,9 @@ Add a user with a Post request:
 `/users`
 
 {
-    "nome": "...",
+    "nome": "insert a valid name",
 
-    "cognome": "...",
+    "cognome": "insert a valid surname",
 
     "email": "insert a valid email"
 }
@@ -94,13 +94,9 @@ Add a product with a Post request:
 
 `/products`
 
-`{
-
-    "nome": "...",
-
-    "orders": "...",
-
-}`
+{
+    "nome": "insert a valid name"
+}
 
 -**Order**
 
