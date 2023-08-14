@@ -50,7 +50,7 @@ Create a .env file, where you create a variable named DB_URI with your MongoDB c
 
 ## 🔖 Endpoints
 
--Users
+-**Users**
 
 Get list of all users in the database with a GET request:
 
@@ -69,7 +69,91 @@ Add a user with a Post request:
 `/users`
 
 `{
+
     "nome": "...",
-    "cognome": "..."
+
+    "cognome": "...",
+
     "email": "insert a valid email"
+
 }`
+
+-**Product**
+
+Get list of all products in the database with a GET request:
+
+`/products`
+
+GET a user by id:
+
+`/products/:id`
+
+PATCH or DELETE a product:
+
+`/products/:id`
+
+Add a product with a Post request:
+
+`/products`
+
+`{
+
+    "nome": "...",
+
+    "orders": "...",
+
+}`
+
+-**Order**
+
+Get list of all orders in the database with a GET request:
+
+`/orders`
+
+GET a order by id:
+
+`/orders/:id`
+
+PATCH or DELETE a order:
+
+`/orders/:id`
+
+Add a order with a Post request:
+
+`/orders`
+
+`{
+
+    "products": "insert a valid product ID",
+
+    "users": "insert a valid user ID",
+
+    "inputDate": "automated"
+
+}`
+
+Filter orders with searchByFilters query
+
+`/orders/searchByFilters`
+
+Filter parameters:
+
+-input date
+
+-product id
+
+Example:
+
+`http://localhost:3000/orders?inputDate=2023-08-10&productId=64d25ddffea8e90c76151108`
+
+## 📜 License
+
+[MIT](https://github.com/Nikcer/S2I-NodeJS-OrizonAgency/blob/master/LICENSE)
+
+## 📨 Contact Me
+
+👤 **Nicolò Cerra**
+
+- [Github](https://github.com/Nikcer)
+- [Linkedin](https://www.linkedin.com/in/nicol%C3%B2-cerra-492325231/)
+- If you have any questions, contact me at: nic.cerra@gmail.com
