@@ -8,7 +8,7 @@ This project is the final practice for start2impact Node.js course.
 
 ## 📖 Description
 
-This project is part of the React course by Strt2Impact. The project consists of developing API JSON RESTful for OrizonAgency. The app includes three data schemas:
+The project consists of developing API JSON RESTful for OrizonAgency. The app includes three data schemas:
 
 - Users
 - Product
