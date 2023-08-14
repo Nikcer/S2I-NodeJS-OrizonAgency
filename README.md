@@ -1,12 +1,12 @@
-# ✈️ OrizonAgency Api
+## ✈️ OrizonAgency Api
 
 REST API for the for the travel agency Orizone.
 
-# ⚽ Goal
+## ⚽ Goal
 
 This project is the final practice for start2impact Node.js course.
 
-## Description
+## 📖 Description
 
 This project is part of the React course by Strt2Impact. The project consists of developing API JSON RESTful for OrizonAgency. The app includes three data schemas:
 
@@ -15,10 +15,33 @@ This project is part of the React course by Strt2Impact. The project consists of
 - Order: data of order.
   The endpoints allow you to Create, Read, Update ore Delete (CRUD) User, Product and Order. With queries you can search an order from the date of entry and the products contained. This project has been done with Node.js (express) and MongoDB.
 
-  ### 📚 Libraries
+  ## 📚 Libraries
 
-- mongoose
-- express
-- helmet
-- morgan
-- helmet
+- Mongoose
+
+- Express
+
+- Helmet
+
+- Morgan
+
+- dotenv
+
+## 💿 Installation
+
+Download and Install Node.js [here](https://nodejs.org/en/download).
+1 - Clone the repository:
+git clone https://github.com/Nikcer/S2I-NodeJS-OrizonAgency
+
+2 - Install the dependencies
+npm install
+
+3 - Start it
+npm start
+
+4 - Connect your MongoDB database
+Create a .env file, where you create a variable named DB_URI with your MongoDB connecting string.
+
+### 🔖 Endpoints
+
+-User
