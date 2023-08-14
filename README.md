@@ -69,11 +69,13 @@ Add a user with a Post request:
 `/users`
 
 {
+
     "nome": "insert a valid name",
 
     "cognome": "insert a valid surname",
 
     "email": "insert a valid email"
+    
 }
 
 -**Product**
@@ -95,7 +97,9 @@ Add a product with a Post request:
 `/products`
 
 {
+
     "nome": "insert a valid name"
+    
 }
 
 -**Order**
@@ -116,7 +120,7 @@ Add a order with a Post request:
 
 `/orders`
 
-`{
+{
 
     "products": "insert a valid product ID",
 
@@ -124,7 +128,7 @@ Add a order with a Post request:
 
     "inputDate": "automated"
 
-}`
+}
 
 Filter orders with searchByFilters query
 
