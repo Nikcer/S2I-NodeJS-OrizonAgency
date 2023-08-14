@@ -68,15 +68,13 @@ Add a user with a Post request:
 
 `/users`
 
-`{
-
+{
     "nome": "...",
 
     "cognome": "...",
 
     "email": "insert a valid email"
-
-}`
+}
 
 -**Product**
 
