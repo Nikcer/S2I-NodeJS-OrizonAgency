@@ -1,6 +1,6 @@
 ## ✈️ OrizonAgency Api
 
-REST API for the for the travel agency Orizone.
+REST API for the travel agency Orizone.
 
 ## ⚽ Goal
 
