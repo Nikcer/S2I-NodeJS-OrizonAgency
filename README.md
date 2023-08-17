@@ -10,7 +10,7 @@ This project is the final practice for start2impact Node.js course.
 
 The project consists of developing API JSON RESTful for OrizonAgency. The app includes three data schemas:
 
-- Users
+- User
 - Product
 - Order
 
