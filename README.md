@@ -50,7 +50,7 @@ Create a .env file, where you create a variable named DB_URI with your MongoDB c
 
 ## 🔖 Endpoints
 
--**Users**
+- **Users**
 
 Get list of all users in the database with a GET request:
 
@@ -78,7 +78,7 @@ Add a user with a Post request:
     
 }
 
--**Product**
+- **Product**
 
 Get list of all products in the database with a GET request:
 
@@ -102,7 +102,7 @@ Add a product with a Post request:
     
 }
 
--**Order**
+- **Order**
 
 Get list of all orders in the database with a GET request:
 
