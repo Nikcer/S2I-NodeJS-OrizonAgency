@@ -75,7 +75,7 @@ Add a user with a Post request:
     "cognome": "insert a valid surname",
 
     "email": "insert a valid email"
-    
+
 }
 
 -**Product**
@@ -98,8 +98,8 @@ Add a product with a Post request:
 
 {
 
-    "nome": "insert a valid name"
-    
+    "nome": "insert a valid name",
+
 }
 
 -**Order**
